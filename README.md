@@ -56,6 +56,3 @@ Open `ML_Temp_Recons.ipynb` in Jupyter or VS Code, select the `MLtemp` kernel, a
 - **Validation:** k-fold cross-validation, out-of-domain station testing
 - **Trend analysis:** Ordinary least squares regression with confidence intervals, anomaly analysis relative to a historical baseline period
 
-## License
-
-Add a license here if you intend to share or reuse this work (e.g., MIT, Apache 2.0).
