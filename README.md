@@ -14,6 +14,7 @@ The pipeline:
 4. **Out-of-domain validation** — tests generalization by applying the trained model to station data withheld from training.
 5. **Long-term reconstruction** — applies the trained model to decades of historical ERA5-Land data to produce a bias-corrected temperature time series, followed by trend analysis (linear regression, OLS with confidence intervals, anomaly detection relative to a historical baseline, and seasonal trend decomposition).
 
+<<<<<<< HEAD
 ## Station Roles
 
 Four sites are used across the pipeline, each playing a different role:
@@ -28,6 +29,8 @@ Four sites are used across the pipeline, each playing a different role:
 
 > **Note:** one station's temperature record has gaps that required handling before use — *(name to be added)*.
 
+=======
+>>>>>>> 143159defbea834ea5fce80785b45aa6a6ab8c31
 ## Repository Contents
 
 - `ML_Temp_Recons.ipynb` — the full analysis notebook, from data loading through model training, validation, and long-term trend reconstruction.
@@ -68,4 +71,9 @@ Open `ML_Temp_Recons.ipynb` in Jupyter or VS Code, select the `MLtemp` kernel, a
 - **Model:** XGBoost regression (`xgboost==2.1.4`)
 - **Interpretability:** SHAP values (`shap==0.45.1`)
 - **Validation:** k-fold cross-validation, out-of-domain station testing
+<<<<<<< HEAD
 - **Trend analysis:** Ordinary least squares regression with confidence intervals, anomaly analysis relative to a historical baseline period
+=======
+- **Trend analysis:** Ordinary least squares regression with confidence intervals, anomaly analysis relative to a historical baseline period
+
+>>>>>>> 143159defbea834ea5fce80785b45aa6a6ab8c31
